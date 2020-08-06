@@ -1,0 +1,49 @@
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+.input-field {
+    width: 70%;
+    margin: 10px auto;
+    height: 45px;
+    display: flex;
+}
+
+.input-field > label {
+    flex: 20%;
+    align-self: center;
+    text-align: left;
+    font-family: "Arial";
+    font-weight: bold;
+    color: #777676;
+}
+
+.input-field input {
+    flex: 80%;
+    outline: none;
+    border: 1px solid #e2dbdb;
+    font-size: 18px;
+    border-radius: 4px;
+    padding-left: 15px;
+}
+
+button {
+    padding: 10px;
+}
+
+.create-form-footer {
+    width: 70%;
+    text-align: center;
+}
+
+.create-form-footer button{
+    margin-right: 20px;
+}
+
+.error {
+    color: red;
+    font-size: 12px;
+    width: 71%;
+    margin-left: auto;
+}
